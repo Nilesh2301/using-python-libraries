@@ -118,7 +118,7 @@ plt.show()
 
 # Insights
 
-print("\n📈 Insights:")
+print("\n📈 Insights chane by art:")
 print(f"• Average Team Strike Rate: {df['Strike Rate'].mean():.2f}")
 print(f"• Average Team Batting Average: {df['Average'].mean():.2f}")
 print(f"• Most Consistent Player: {best_avg['Player']}")
@@ -130,3 +130,4 @@ print(f"• Total Team Runs: {df['Runs'].sum()}")
 
 df.to_csv("Cricket_Score_Analysis.csv", index=False)
 print("\n✅ Analysis completed and saved as 'Cricket_Score_Analysis.csv'")
+
